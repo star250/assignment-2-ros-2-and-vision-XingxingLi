@@ -3,9 +3,12 @@
 <package format="3">
   <name>aisd_motion</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Move node that turns hand positions into turtle velocity</description>
   <maintainer email="li001005@algonquinlive.com">aisd</maintainer>
-  <license>TODO: License declaration</license>
+  <license>none</license>
+  <depend>aisd_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
